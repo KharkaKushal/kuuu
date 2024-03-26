@@ -1,0 +1,115 @@
+/* Styles for header */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-text {
+    font-size: 18px;
+}
+
+.header-btns {
+    margin-top: 20px;
+}
+
+/* Styles for main sections */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Styles for join group section */
+.join-group {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+.join-group-form {
+    margin-top: 20px;
+}
+
+.join-group-form .form-field {
+    margin-bottom: 20px;
+}
+
+.join-group-form label {
+    display: block;
+    font-weight: bold;
+}
+
+.join-group-form input[type="text"],
+.join-group-form input[type="tel"],
+.join-group-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.join-group-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.join-group-form button:hover {
+    background-color: #555;
+}
+
+/* Styles for contact section */
+.contact {
+    padding: 40px 0;
+}
+
+.contact-form .form-field {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+.advanced-contact {
+    margin-top: 20px;
+    font-style: italic;
+}
